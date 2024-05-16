@@ -1,0 +1,419 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/abdul/OneDrive/HW2/simulation/modelsim
+vadder_32
+Z1 !s110 1702241477
+!i10b 1
+!s100 7cZFIEco_LhIOM<9H=P6l2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I^<YdUA9>jzCmlPijO]^a>2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1702239151
+Z5 8C:/Users/abdul/OneDrive/HW2/files/adder_32.v
+Z6 FC:/Users/abdul/OneDrive/HW2/files/adder_32.v
+!i122 0
+L0 2 17
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1702241477.000000
+Z9 !s107 C:/Users/abdul/OneDrive/HW2/files/adder_32.v|
+Z10 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/abdul/OneDrive/HW2/files|C:/Users/abdul/OneDrive/HW2/files/adder_32.v|
+!i113 1
+Z11 o-vlog01compat -work work
+Z12 !s92 -vlog01compat -work work +incdir+C:/Users/abdul/OneDrive/HW2/files
+Z13 tCvgOpt 0
+vadder_4
+R1
+!i10b 1
+!s100 OjbLW]V0:EZlj3SMNDRS40
+R2
+IZZfC0D`J2D5F43J:glanO0
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 24 53
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+R13
+valu_32
+Z14 !s110 1702241479
+!i10b 1
+!s100 7ebAWNO^D3L_OQ@87ncG?1
+R2
+IXZJ_Ma_2BBJkmgER]gAVY3
+R3
+R0
+w1702238772
+8C:/Users/abdul/OneDrive/HW2/files/alu_32.v
+FC:/Users/abdul/OneDrive/HW2/files/alu_32.v
+!i122 9
+L0 1 23
+R7
+r1
+!s85 0
+31
+Z15 !s108 1702241479.000000
+!s107 C:/Users/abdul/OneDrive/HW2/files/alu_32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/abdul/OneDrive/HW2/files|C:/Users/abdul/OneDrive/HW2/files/alu_32.v|
+!i113 1
+R11
+R12
+R13
+vand_32
+Z16 !s110 1702241478
+!i10b 1
+!s100 aL>=SD]:AEM:b1K5KFBG<2
+R2
+IgO]BY`T0^Z<:S67n0lXCO1
+R3
+R0
+w1702237384
+8C:/Users/abdul/OneDrive/HW2/files/and_32.v
+FC:/Users/abdul/OneDrive/HW2/files/and_32.v
+!i122 2
+Z17 L0 1 38
+R7
+r1
+!s85 0
+31
+Z18 !s108 1702241478.000000
+!s107 C:/Users/abdul/OneDrive/HW2/files/and_32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/abdul/OneDrive/HW2/files|C:/Users/abdul/OneDrive/HW2/files/and_32.v|
+!i113 1
+R11
+R12
+R13
+vand_4input
+R1
+!i10b 1
+!s100 F[:O@:9b9kW4gLVk_TWUb1
+R2
+IWb4?2YU26ESn<Ad:QMRPc0
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 100 11
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+R13
+vmod_32
+R16
+!i10b 1
+!s100 kc0^<YmGfA?VEzi1o9e^m2
+R2
+IL=@;QS2^<RiR`OG4DaOV>2
+R3
+R0
+w1702237618
+8C:/Users/abdul/OneDrive/HW2/files/mod_32.v
+FC:/Users/abdul/OneDrive/HW2/files/mod_32.v
+!i122 7
+L0 1 52
+R7
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/abdul/OneDrive/HW2/files/mod_32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/abdul/OneDrive/HW2/files|C:/Users/abdul/OneDrive/HW2/files/mod_32.v|
+!i113 1
+R11
+R12
+R13
+vmux_2x1
+R16
+!i10b 1
+!s100 [Oc0[oJ4TilmXE9RnXPJ71
+R2
+InZdU;@6F]62[HgGmo1D<g1
+R3
+R0
+Z19 w1702240203
+Z20 8C:/Users/abdul/OneDrive/HW2/files/mux_8x1.v
+Z21 FC:/Users/abdul/OneDrive/HW2/files/mux_8x1.v
+!i122 5
+L0 27 41
+R7
+r1
+!s85 0
+31
+R18
+Z22 !s107 C:/Users/abdul/OneDrive/HW2/files/mux_8x1.v|
+Z23 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/abdul/OneDrive/HW2/files|C:/Users/abdul/OneDrive/HW2/files/mux_8x1.v|
+!i113 1
+R11
+R12
+R13
+vmux_2x1_1bit
+R16
+!i10b 1
+!s100 GcKl_T;;Q;0]H=ej3Xlc:1
+R2
+I1[ZC`0MCPYK:<4<z@X3;o0
+R3
+R0
+R19
+R20
+R21
+!i122 5
+L0 76 14
+R7
+r1
+!s85 0
+31
+R18
+R22
+R23
+!i113 1
+R11
+R12
+R13
+vmux_8x1
+R16
+!i10b 1
+!s100 flz1iQRoYDClz^J3R2<4R3
+R2
+IIdCB7NXKS>hhTa=kNoeOS1
+R3
+R0
+R19
+R20
+R21
+!i122 5
+L0 1 16
+R7
+r1
+!s85 0
+31
+R18
+R22
+R23
+!i113 1
+R11
+R12
+R13
+vnor_32
+R16
+!i10b 1
+!s100 ;10ofSPD7][]NFh0?59NH0
+R2
+I]:5VKU?l_J[>Bm_FHhTY80
+R3
+R0
+w1702237594
+8C:/Users/abdul/OneDrive/HW2/files/nor_32.v
+FC:/Users/abdul/OneDrive/HW2/files/nor_32.v
+!i122 6
+R17
+R7
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/abdul/OneDrive/HW2/files/nor_32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/abdul/OneDrive/HW2/files|C:/Users/abdul/OneDrive/HW2/files/nor_32.v|
+!i113 1
+R11
+R12
+R13
+vnot_32
+R1
+!i10b 1
+!s100 M<cF^8SAcoj4N`=Wi<K:Z3
+R2
+IV=X=@anA]l`CRdMb_77YT0
+R3
+R0
+Z24 w1702238288
+Z25 8C:/Users/abdul/OneDrive/HW2/files/sub_32.v
+Z26 FC:/Users/abdul/OneDrive/HW2/files/sub_32.v
+!i122 1
+L0 26 39
+R7
+r1
+!s85 0
+31
+R8
+Z27 !s107 C:/Users/abdul/OneDrive/HW2/files/sub_32.v|
+Z28 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/abdul/OneDrive/HW2/files|C:/Users/abdul/OneDrive/HW2/files/sub_32.v|
+!i113 1
+R11
+R12
+R13
+vor_32
+R16
+!i10b 1
+!s100 ^eeZBG11g_;deSCJ8lTiD3
+R2
+IRk6Ij8@EoTdlILeQdTUoA0
+R3
+R0
+w1702237401
+8C:/Users/abdul/OneDrive/HW2/files/or_32.v
+FC:/Users/abdul/OneDrive/HW2/files/or_32.v
+!i122 3
+R17
+R7
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/abdul/OneDrive/HW2/files/or_32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/abdul/OneDrive/HW2/files|C:/Users/abdul/OneDrive/HW2/files/or_32.v|
+!i113 1
+R11
+R12
+R13
+vor_4input
+R1
+!i10b 1
+!s100 b:<^QH2]9CI6QJkIhbVL`0
+R2
+I?7`DUHPk`]<^f@hoC19`f3
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 87 10
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+R13
+vslt_32
+R16
+!i10b 1
+!s100 Gez@S5e1K<j1=@P`7kj2a1
+R2
+I`HfXUSjAfD5E8L:_g8k3T3
+R3
+R0
+w1702239588
+8C:/Users/abdul/OneDrive/HW2/files/slt_32.v
+FC:/Users/abdul/OneDrive/HW2/files/slt_32.v
+!i122 8
+L0 1 11
+R7
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/abdul/OneDrive/HW2/files/slt_32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/abdul/OneDrive/HW2/files|C:/Users/abdul/OneDrive/HW2/files/slt_32.v|
+!i113 1
+R11
+R12
+R13
+vsub_32
+R1
+!i10b 1
+!s100 GC7d69;<nRHG8@dg6Ha010
+R2
+IhiYAHPTR]Imm0Y60DBITV1
+R3
+R0
+R24
+R25
+R26
+!i122 1
+L0 1 14
+R7
+r1
+!s85 0
+31
+R8
+R27
+R28
+!i113 1
+R11
+R12
+R13
+vtestbench
+R14
+!i10b 1
+!s100 7HYVHP]`k0bYW>Ck5Y:b]1
+R2
+IdH]V3]T^H7SH?S>fZa6df0
+R3
+R0
+w1702237842
+8C:/Users/abdul/OneDrive/HW2/files/testbench.v
+FC:/Users/abdul/OneDrive/HW2/files/testbench.v
+!i122 10
+L0 3 79
+R7
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/abdul/OneDrive/HW2/files/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/abdul/OneDrive/HW2/files|C:/Users/abdul/OneDrive/HW2/files/testbench.v|
+!i113 1
+R11
+R12
+R13
+vxor_32
+R16
+!i10b 1
+!s100 M=3[5Y?<FK<=cUc8YETm>1
+R2
+Id?0ehUXiEciaKd]78<RFc1
+R3
+R0
+w1702237420
+8C:/Users/abdul/OneDrive/HW2/files/xor_32.v
+FC:/Users/abdul/OneDrive/HW2/files/xor_32.v
+!i122 4
+R17
+R7
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/abdul/OneDrive/HW2/files/xor_32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/abdul/OneDrive/HW2/files|C:/Users/abdul/OneDrive/HW2/files/xor_32.v|
+!i113 1
+R11
+R12
+R13

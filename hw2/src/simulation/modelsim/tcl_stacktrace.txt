@@ -1,0 +1,36 @@
+Sun Dec 10 23:13:31 AST 2023
+Trace back: can't read "tmp_array(Default)": no such element in array
+    while executing
+"foreach column_label $tmp_array($CurrentColConfigName) {
+		if { [column exists $column_label] } {
+			continue
+		}
+		column add $column_label
+	}"
+    (object "::.main_pane.process.interior.cs.body.tree" method "::vsimwidgets::Hierarchy::updateColumnVisibility" body line 13)
+    invoked from within
+"updateColumnVisibility"
+    (object "::.main_pane.process.interior.cs.body.tree" method "::vsimwidgets::Hierarchy::ApplyCurrentColumnConfiguration" body line 10)
+    invoked from within
+"ApplyCurrentColumnConfiguration $CurrentColConfigName"
+    (object "::.main_pane.process.interior.cs.body.tree" method "::vsimwidgets::Hierarchy::UpdateCurrentColumnConfiguration" body line 7)
+    invoked from within
+"::.main_pane.process.interior.cs.body.tree UpdateCurrentColumnConfiguration CurrentColConfigName {} w"
+    (in namespace inscope "::vsimwidgets::Hierarchy" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.process.interior.cs.body.tree UpdateCurrentColumnConfiguration} CurrentColConfigName {} w"
+    (write trace on "CurrentColConfigName")
+    invoked from within
+"set CurrentColConfigName $current_config"
+    (object "::.main_pane.process.interior.cs.body.tree" method "::vsimwidgets::Hierarchy::LoadColumnData" body line 37)
+    invoked from within
+"LoadColumnData"
+    (object "::.main_pane.process.interior.cs.body.tree" method "::vsimwidgets::Hierarchy::_MapEvent" body line 3)
+    invoked from within
+"::.main_pane.process.interior.cs.body.tree _MapEvent"
+    (in namespace inscope "::vsimwidgets::Hierarchy" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.process.interior.cs.body.tree _MapEvent}"
+    (command bound to event)
+  <2:C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/tk8.6/bgerror.tcl:106: ::tkerror {can't set "CurrentColConfigName": can't read "tmp_array(Default)": no such element in array}
+  <1:eval:1: ::tk::dialog::error::bgerror {can't set "CurrentColConfigName": can't read "tmp_array(Default)": no such element in array}

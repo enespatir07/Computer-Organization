@@ -1,0 +1,12 @@
+
+State Machine - |alu_32|mod_32:modx|next_state
+Name next_state.S0 next_state.S2 next_state.S1 
+next_state.S0 0 0 0 
+next_state.S1 1 0 1 
+next_state.S2 1 1 0 
+
+State Machine - |alu_32|mod_32:modx|state
+Name state.S0 state.S2 state.S1 
+state.S0 0 0 0 
+state.S1 1 0 1 
+state.S2 1 1 0 

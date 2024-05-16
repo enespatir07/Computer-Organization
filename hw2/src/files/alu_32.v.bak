@@ -1,0 +1,26 @@
+module alu_32(res, A, B, Alu_Op, clock, reset);
+
+  input [31:0] A, B;
+  input [2:0] Alu_Op;
+  output [31:0] res;
+  input wire clock, reset;
+
+  wire [3:0] unused_signals; 
+  wire out_SLT;
+  wire [31:0] out_NOR,out_OR,out_SUB, out_MOD,out_AND, out_XOR, out_ADD;
+
+  _32_bit_sub sub1(out_SUB, unused_signals[2], unused_signals[3], A, B);
+  _32_bit_and and1(out_AND, A, B);
+   _32_bit_adder add1(out_ADD, unused_signals[0], unused_signals[1], A, B, 1'b0);
+	  _32_bit_nor nor1(out_NOR, A, B);
+  mod xyz(clock, reset, out_MOD, A, B);
+  _32_bit_or or1(out_OR, A, B);
+  _32_bit_xor xor1(out_XOR, A, B);
+  
+  slt slt1(out_SLT, A, B);
+ 
+  
+  
+  _32_bit_8x1_mux mux(res, out_AND, out_OR, out_XOR, out_NOR, {32{out_SLT}}, out_ADD, out_SUB, out_MOD, Alu_Op);
+
+endmodule
